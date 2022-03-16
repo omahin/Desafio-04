@@ -1,0 +1,18 @@
+//GET http://localhost:3000/todos
+
+###
+
+POST https://localhost:27017/criar
+content-type: application/json
+
+{
+    "nome": "Mariana",
+    "email": "mari@email.com",
+    "senha": "mari"
+}
+
+###
+
+POST http://localhost:3000/login
+content-type: application/json
+
